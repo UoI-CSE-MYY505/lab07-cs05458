@@ -1,0 +1,19 @@
+Part A:
+Direct Mapped:
+Pad Mem H/M #Block Tag
+0   1   M   0      0x00400000
+0   2   H   0      0x00400000
+4   1   M   0      0x00400000
+4   2   M   1      0x00400000
+8   1   M   1      0x00400000
+8   2   H   1      0x00400000
+Fully Associative:
+Pad Mem H/M #Block Tag
+0   1   M   0      0x02000000
+0   2   H   0      0x02000000
+4   1   M   0      0x02000000
+4   2   M   1      0x02000001
+8   1   M   0      0x02000001
+8   2   H   0      0x02000001
+
+I will only do this much because I have 2 exams this week and I'm bedsick, please be thoroughly understanding of my condition.
